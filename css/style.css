@@ -47,6 +47,12 @@ header {
     margin: 10px;
 }
 
+
+
+.fa-calendar { margin: 10px; }
+
+.drop { margin: 15px; }
+
 footer {
     font: normal 10px/10px roboto-reg;
     color: #666;
