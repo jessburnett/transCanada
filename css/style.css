@@ -94,7 +94,7 @@ header {
   position: absolute;
   top: 0;
   border-right: 0;
-  left: 0; }
+  left: -10px; }
 
 .right-small {
   width: 2.8125rem;
@@ -168,6 +168,8 @@ header {
   left: 0; }
   .left-off-canvas-menu * {
     -webkit-backface-visibility: hidden; }
+
+.right-off-canvas-toggle { float: right; }
 
 .right-off-canvas-menu {
   -webkit-backface-visibility: hidden;
@@ -493,6 +495,8 @@ input, select { height: 2rem !important; }
 
 .tc-green { color: #07993a; }
 
+.callout.panel { margin-left: 1rem!important; }
+ 
 footer {
     font: normal 10px/10px roboto-reg;
     color: #666;
